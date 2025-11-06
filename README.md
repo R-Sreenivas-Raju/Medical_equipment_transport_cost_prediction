@@ -121,7 +121,7 @@ Evaluated **7 algorithms** with GridSearchCV (3-Fold CV):
 
 - **Baseline (raw features):** RMSE ~$48,000
 - **With engineered features:** RMSE $39,576
-- **Improvement:** ~17% reduction in RMSE ✨
+- **Improvement:** ~17% reduction in RMSE 
 
 ---
 
