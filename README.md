@@ -1,4 +1,4 @@
-# Medical Equipment Transport Cost Prediction 🏥📦
+# Medical Equipment Transport Cost Prediction 
 
 > **Team: Unsupervised Learners**  
 > R. Sreenivasa Raju (IMT2023122) | U. Trivedh Venkata Sai (IMT2023002)
@@ -9,11 +9,11 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project tackles a **regression challenge** to predict transport costs for medical equipment deliveries. The solution leverages advanced feature engineering, robust preprocessing pipelines, and systematic model evaluation to achieve competitive performance on the Kaggle platform.
 
-### 🎯 Business Problem
+### Business Problem
 
 Medical equipment logistics providers need accurate cost predictions to:
 - Provide competitive pricing quotes
@@ -23,7 +23,7 @@ Medical equipment logistics providers need accurate cost predictions to:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** Kaggle Medical Equipment Transport Cost Prediction Challenge
 
@@ -43,7 +43,7 @@ Medical equipment logistics providers need accurate cost predictions to:
 
 ---
 
-## 🔧 Technical Approach
+## Technical Approach
 
 ### 1. **Data Preprocessing Pipeline**
 
@@ -89,19 +89,19 @@ Evaluated **7 algorithms** with GridSearchCV (3-Fold CV):
 
 | Model | R² Score | RMSE (USD) | Training Time |
 |-------|----------|------------|---------------|
-| **ElasticNet** ✅ | **0.294** | **39,576** | <1s |
+| **ElasticNet** | **0.294** | **39,576** | <1s |
 | RandomForest | 0.291 | 39,652 | ~30s |
 | BayesianRidge | 0.274 | 40,138 | <1s |
 | Ridge | 0.261 | 40,493 | <1s |
 | Lasso | 0.260 | 40,530 | <1s |
 | AdaBoost | 0.171 | 42,890 | ~20s |
-| XGBoost ❌ | -0.200 | 51,586 | ~15s |
+| XGBoost | -0.200 | 51,586 | ~15s |
 
 **Selected Model:** ElasticNet (optimal balance of accuracy, speed, interpretability)
 
 ---
 
-## 🚀 Key Results
+## Key Results
 
 ### Performance Metrics
 
@@ -125,16 +125,16 @@ Evaluated **7 algorithms** with GridSearchCV (3-Fold CV):
 
 ---
 
-## 💡 Key Insights & Lessons
+## Key Insights & Lessons
 
-### What Worked ✅
+### What Worked
 
 1. **Custom Feature Engineering:** Domain-informed features > algorithm sophistication
 2. **Pipeline Architecture:** Prevented data leakage, ensured reproducibility
 3. **Cyclical Encoding:** Preserved circular relationships (weekdays, months)
 4. **Target Transformation:** Improved linear model performance
 
-### What Didn't Work ❌
+### What Didn't Work
 
 1. **XGBoost:** Negative R² despite extensive tuning
    - **Lesson:** Complex models don't always win; 5,000 samples favor simpler models
@@ -145,7 +145,7 @@ Evaluated **7 algorithms** with GridSearchCV (3-Fold CV):
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── ultimate_ml_assignment.ipynb   # Main notebook with complete pipeline
@@ -157,7 +157,7 @@ Evaluated **7 algorithms** with GridSearchCV (3-Fold CV):
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 
@@ -194,7 +194,7 @@ predictions = pipeline.predict(X_test)
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 ### Short-Term
 - Collect more training data (target: 15,000+ samples)
@@ -213,7 +213,7 @@ predictions = pipeline.predict(X_test)
 
 ---
 
-## 👥 Team Contributions
+##  Team Contributions
 
 **R. Sreenivasa Raju (IMT2023122)**
 - Feature engineering design
@@ -227,13 +227,13 @@ predictions = pipeline.predict(X_test)
 
 ---
 
-## 📝 License
+## License
 
 This project is part of an academic ML assignment. For educational purposes only.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Kaggle for hosting the competition
 - scikit-learn community for excellent documentation
@@ -241,12 +241,10 @@ This project is part of an academic ML assignment. For educational purposes only
 
 ---
 
-## 📞 Contact
+##  Contact
 
 For questions or collaboration:
 - R. Sreenivasa Raju: [IMT2023122]
 - U. Trivedh Venkata Sai: [IMT2023002]
 
 ---
-
-**⭐ If you find this project helpful, please star the repository!**
