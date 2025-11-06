@@ -3,10 +3,6 @@
 > **Team: Unsupervised Learners**  
 > R. Sreenivasa Raju (IMT2023122) | U. Trivedh Venkata Sai (IMT2023002)
 
-[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF?logo=kaggle)](https://www.kaggle.com)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-
 ---
 
 ## Project Overview
